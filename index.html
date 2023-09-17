@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>IBGE</title>
+</head>
+<body>
+    <!--START SIDE BAR-->
+    <div class="SIDEBAR">
+        <div class="sidehead">
+            <img src="https://mundogeoconnect.com/2018/wp-content/uploads/logo-ibge.jpg" height="50px"width="50px">    
+        </div>
+        <div class="sidebody">
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    dashboard
+                </span>
+                <h4>Dashboard</h4>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    Info
+                </span>
+                <h4>About Us</h4>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+                <h4>Setup</h4>
+            </a>
+        </div>
+    </div>
+    <!--END SIDE BAR-->
+
+    <!--DASHBOARD-->
+    <main>
+        <div class="regions">
+            <div class="amount">
+                <button id="statesbtt">
+                    <span class="material-symbols-outlined">
+                        south_america
+                    </span>
+                </button>
+                <p id="amountstates"></p>
+                <div class="search">
+                    <p id="amountcities"></p>
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                    <input type="search" id="ufInput" placeholder="Write a UF">
+                    <button id="searchCitiesBtn">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <table id="statesTable">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>UF</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Table Inputs-->
+            </tbody>
+        </table>
+        <table id="citiesTable">
+            <thead>
+                <tr>
+                    <th>Nome do Município</th>
+                    <th>Código IBGE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table Inputs -->
+            </tbody>
+        </table>        
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+body{
+    display: flex;
+    background-color: #D9D9D9;
+}
+
+img{
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+    display: flex;
+}
+a{
+    color: #2F3D40;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 100;
+    font-size: 30px;
+    color: #2F3D40;
+}
+h2{
+    font-weight: 100;
+    font-size: 15px;
+    color: #2F3D40;
+}
+h3{
+    font-weight: 100;
+    font-size: 15px;
+    color: #2F3D40;
+}
+h4{
+    font-weight: 100;
+    font-size: 15px;
+    color: #2F3D40;
+}
+.sidehead{
+    margin-top: 15px;
+}
+.SIDEBAR{
+    color: #455559;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 150px;
+    background-color: white;
+    height: 600px;
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+}
+.sidebody{
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.sidebody a{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 15px;
+    margin-left: 15px;
+
+}
+
+.sidebody a:hover span{
+    color: lightskyblue;
+    margin-left: 5px;
+}
+
+.sidebody a:hover h4{
+    color: lightskyblue;
+}
+
+.regions{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 40px;;
+    text-align: center;
+    border-radius: 15px;
+    ;
+}
+.amount{
+    display: flex;
+    font-size: 15px;
+    color: #455559;
+    padding: 10px;
+}
+.amount button span{
+    font-size: 70px;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.amount button:hover span{
+    color: lightskyblue;
+}
+.amount p{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    text-align: left;
+}
+table {
+    top: 50px;
+    color:#2F3D40;
+    background-color: white;
+    margin-left: 100px;
+    width:1000px;
+    border-radius: 15px;
+}
+th {
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+    color: #2F3D40;
+    border-radius: 15px;
+    
+  }
+  td {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+  }
+  tr:nth-child(even) {
+    background-color: #F0F0F0;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #FFFFFF;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+
+  }
+  .search label{
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .search input{
+    display: flex;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .search button span{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    color: #2F3D40;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+  }
